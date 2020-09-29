@@ -1,7 +1,10 @@
 import random
+import os
 
 while True:
 
+    os.system("cls")
+    
     print('------------------------')
     print('### LOTERIAS ###')
     print('1: MEGASENA')
@@ -10,8 +13,6 @@ while True:
     print('4: QUINA')
     print('5: LOTOMANIA')
     print('6: DUPLA-SENA\n')
-
-    
 
     v_valida_lot_des = False
     while v_valida_lot_des == False:
@@ -107,3 +108,8 @@ while True:
 
     if v_sair == 'n':
         break
+
+os.system("cls")
+print('Obrigado por ter utilizado meu gerador de loterias!\n')
+print('1º projeto de conclusão do curso básico de Python "Aprenda Programação em Python 3 do Zero com Facilidade", do professor Ivan Lourenço Gomes, na plataforma UDEMY.\n')
+print('Contato: jaques.pavan@gmail.com')
